@@ -1,5 +1,5 @@
 /*
-Fibonacci serisini bulan program.
+Fibonacci series program.
 */
 
 #include <stdio.h>
@@ -9,7 +9,7 @@ int fib(int n)
         return n; 
     return fib(n - 1) + fib(n - 2); 
 } 
-  
+
 int main() 
 { 
     int n = 9; 
